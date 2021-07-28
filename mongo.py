@@ -55,8 +55,8 @@ coll = conn[DATABASE][COLLECTION]
 # update the first item with nationality american
 # coll.update_one({"nationality": "american"}, {"$set": {"hair_color": "maroon"}})
 
-# update all items with nationality american
-# coll.update_many({"nationality": "american"}, {"$set": {"hair_color": "maroon"}})
+update all items with nationality american
+coll.update_many({"nationality": "american"}, {"$set": {"hair_color": "maroon"}})
 
 # change geroge rr martin nationality to american
 # coll.update_one({"last": "rr martin"}, {"$set": {"nationality": "american"}})
